@@ -12,10 +12,10 @@ $(function() {
     });
   }); 
     // nice scroll 
-    $('html').niceScroll({
-        cursorwidth: "10px",
-        cursorcolor:"#dd2476"
-    }); 
+    // $('html').niceScroll({
+    //     cursorwidth: "10px",
+    //     cursorcolor:"#dd2476"
+    // }); 
     // smooth scrolling on anchors
   $(document).on("click",".nav-link", function(e) {
     e.preventDefault(); 
